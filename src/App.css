@@ -1,0 +1,21 @@
+.App > .header,
+.App > .content,
+.App > .footer {
+  margin-top: 32px;
+}
+
+.App > .header > .logo {
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--foreground-light);
+}
+
+.App > .header > .twitter-btn {
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+  color: var(--foreground-light);
+  background-color: var(--foreground);
+  border: 2px solid var(--foreground-light);
+  border-radius: 4px;
+}

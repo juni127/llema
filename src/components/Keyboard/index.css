@@ -1,0 +1,48 @@
+.keyboard {
+
+}
+
+.keyboard > .keyboard-row {
+}
+
+.keyboard > .keyboard-row > .keyboard-icon-btn {
+    width: 64px;
+    height: 36px;
+    margin: 4px;
+    text-align: center;
+    background-color: var(--foreground);
+    color: var(--foreground-light);
+    border: var(--foreground-light) solid 2px;
+    border-radius: 4px;
+}
+
+.keyboard > .keyboard-row > .key {
+    width: 8vmin;
+    height: 8vmin;
+    max-width: 36px;
+    max-height: 36px;
+    margin: 4px;
+    text-align: center;
+    background-color: var(--foreground);
+    color: var(--foreground-light);
+    border: var(--foreground-light) solid 2px;
+    border-radius: 4px;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.keyboard > .keyboard-row > .key.green {
+    background-color: var(--green);
+}
+
+.keyboard > .keyboard-row > .key.yellow {
+    background-color: var(--yellow);
+}
+
+.keyboard > .keyboard-row > .key.red {
+    background-color: var(--red);
+}

@@ -1,0 +1,40 @@
+.rules-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    color: var(--foreground-light);
+    background-color: var(--foreground);
+    border: 2px solid var(--foreground-light);
+    border-radius: 4px;
+}
+
+.rules-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.rules-container > .rules-main {
+    padding: 16px;
+    color: var(--foreground-light);
+    background-color: var(--foreground);
+    border: 1px solid var(--foreground-light);
+    border-radius: 8px;
+}
+
+.rules-container > .rules-main > .divider {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid var(--foreground-light);
+}
+
+.rules-container > .rules-main > .close-button {
+    color: var(--foreground-light);
+    background-color: var(--background);
+    border: 2px solid var(--foreground-light);
+    border-radius: 4px;
+    margin-top: 24px;
+}

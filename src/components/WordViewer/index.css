@@ -1,0 +1,52 @@
+.word-viewer {
+    margin-bottom: 32px;
+}
+
+.word-row > .c-tooltip {
+    position: absolute;
+    transform: translate(0, 60px);
+    width: 360px;
+    padding: 8px;
+    padding-top: 16px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #000;
+    color: azure;
+
+    /*-webkit-clip-path:polygon(0 0, 100% 100%, 0% 100%, 0% 100%);*/
+    clip-path:polygon(0 8px, 48% 8px, 50% 0, 52% 8px, 100% 8px, 100% 100%, 0 100%);
+}
+
+.word-row > .word-cell {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    background-color: var(--background-light);
+    margin: 8px;
+    border-radius: 4px;
+    border: none;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.word-row.active > .word-cell {
+    border: 2px solid var(--foreground-light);
+}
+
+.word-row > .word-cell.red {
+    background-color: var(--red);
+}
+
+.word-row > .word-cell.yellow {
+    background-color: var(--yellow);
+}
+
+.word-row > .word-cell.green {
+    background-color: var(--green);
+}
